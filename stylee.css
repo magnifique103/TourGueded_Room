@@ -1,0 +1,180 @@
+/* stylee.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c3e50; /* Dark blue background */
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ecf0f1; /* Light gray color for the logo */
+  text-decoration: none;
+}
+
+nav .logo:hover {
+  color: #3498db; /* Change color on hover */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ecf0f1; /* Light gray color for links */
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+  background-color: #3498db; /* Blue background on hover */
+  color: white;
+}
+
+/* Search Container Styles */
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.log {
+  padding: 8px 16px;
+  background-color: #3498db; /* Blue background for the button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.log:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Main Section Styles */
+.main {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.main h1 {
+  font-size: 36px;
+}
+
+.main .span {
+  font-size: 18px;
+  color: #555;
+}
+
+.choose {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.choose:hover {
+  background-color: #555; /* Darker background on hover */
+}
+
+.choice-heading {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+/* Card Grid Styles */
+.content {
+  padding: 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card .text {
+  padding: 15px;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.click {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.click:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
